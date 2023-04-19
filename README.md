@@ -28,3 +28,4 @@ The data layer uses the sqlite3 library of the Python language to enable communi
 <h2>Conclusion</h2>
 The Library Management System provides a user-friendly interface for users to borrow books from the library. The system's layered architecture ensures that it is easy to maintain and update, and its use of a database management system ensures that data is stored securely and easily accessible.</br>
 
+
