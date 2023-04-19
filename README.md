@@ -1,1 +1,2 @@
 # Library-Management-System
+The Library Management System is a Python project that allows users to borrow books from a library and keep track of the details of their borrowing. The system allows users to sign up and log in to their profile on the library site, where they can view the date they received the book and the date they should return it. Students are eligible for a discount on book prices, and users can search for books by author, code, and price.
