@@ -11,7 +11,7 @@ The library management system aims to provide a platform where users can easily 
 The Library Management System has three actors: users, system administrators, and the database. Users can log in and create a profile, while system administrators can determine the return and receipt dates, show available books, and tell users how many books they can borrow. The database stores all user information.</br>
 
 <h3>Implementation of Layers</h3>
-The Library Management System is divided into three layers: presentation, business, and data.</br>
+The Library Management System is divided into three layers: presentation, business, and data.</br></br>
 
 <b>Presentation Layer</b></br>
 The presentation layer provides a graphical user interface (GUI) for the Library Management System using the Tkinter library, which is built into Python. The GUI includes a login window where users can enter their username and password and search for books. Users can also sign up for the system, reset their password, and view their borrowed books. System administrators can add or edit book information.</br>
