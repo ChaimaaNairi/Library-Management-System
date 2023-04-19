@@ -18,16 +18,13 @@ The presentation layer provides a graphical user interface (GUI) for the Library
 
 <b>Business Layer</b></br>
 The business layer provides all the internal processes for the Library Management System. It contains classes for all the required assets of the project, and the interactions of these classes give way to the operation of the program.</br>
-
 The central class of the business layer is the "Library" class, which holds important information about the library and program and instantiates other classes as needed. The "User" class generates user objects that contain all the information about the users and perform all the actions. The "Book" class holds information about a book, including the title, author, price, and availability.</br>
-
 The business layer also communicates with the data layer to update user and book information.</br>
 
 <b>Data Layer</b></br>
 The data layer stores all user information and past sessions of the Library Management System. The system uses SQLite, a database management system, to store all the data in local storage and access it via file access channels.</br>
-
 The data layer uses the sqlite3 library of the Python language to enable communication with the database. When a user updates their information or borrows a book, the corresponding record in the database is updated.</br>
 
-<h2>Conclusion</h2></br>
+<h2>Conclusion</h2>
 The Library Management System provides a user-friendly interface for users to borrow books from the library. The system's layered architecture ensures that it is easy to maintain and update, and its use of a database management system ensures that data is stored securely and easily accessible.</br>
 
